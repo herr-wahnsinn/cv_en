@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+nav h2 {
+    margin-top: 0;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+nav ul li {
+    background: #e7e7e7;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li:hover {
+    background: #d4d4d4;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #333;
+    font-weight: 500;
+    display: block;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.highlight {
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
