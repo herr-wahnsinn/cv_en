@@ -5,38 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elian Nizamov - Data Analyst Resume</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="icon.png" type="image/png">
-    <style>
-        @font-face {
-            font-family: 'CMUSerifRoman';
-            src: url('https://www.fontsquirrel.com/fonts/download/computer-modern') format('truetype');
-        }
-        body {
-            font-family: 'CMUSerifRoman', serif;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Elian Nizamov</h1>
-            <p>Data Analyst</p>
             <p class="contact">
-                <a href="mailto:wsp.elian@yandex.ru">Mail</a> | 
+                <a href="mailto:wsp.elian@yandex.ru">wsp.elian@yandex.ru</a> | 
                 <a href="https://linkedin.com/in/enizamov" target="_blank">LinkedIn</a> | 
                 <a href="https://t.me/herr_wahnsinn" target="_blank">Telegram</a>
             </p>
         </header>
-
-        <nav>
-            <h2>Table of Contents</h2>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#key-skills">Key Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-            </ul>
-        </nav>
 
         <section id="about-me">
             <h2>About Me</h2>
@@ -54,11 +33,12 @@
 
         <section id="experience">
             <h2>Experience</h2>
-            <h3>Data Analyst</h3>
-            <p><em>CDEK (40,000 employees)</em> | Aug. 2022 – Present</p>
-            <ul>
-                <li><strong>Stack:</strong> SQL (55% of the time), Apache Superset (40% of the time), Confluence (5% of the time).</li>
-                <li><strong>Responsibilities:</strong></li>
+
+            <div class="experience-item">
+                <h3>Data Analyst</h3>
+                <p><em>CDEK (40,000 employees)</em> | Aug. 2022 – Present</p>
+                <p><span class="highlight">Stack:</span> SQL (55% of the time), Apache Superset (40% of the time), Confluence (5% of the time).</p>
+                <p><span class="highlight">Responsibilities:</span></p>
                 <ul>
                     <li>Development of data marts in ClickHouse and Greenplum.</li>
                     <li>Creation of dashboards in Apache Superset to visualize financial business metrics.</li>
@@ -69,19 +49,19 @@
                     <li>Analysis of 1C reports required for visualization, task assignment to 1C developers and analysts for data migration via RabbitMQ, and control of the migration process to the DWH for subsequent use in BI systems.</li>
                     <li>Monitoring and managing data transmission using Kafka, ensuring stability and control over data streams.</li>
                 </ul>
-            </ul>
+            </div>
 
-            <h3>BI Analyst</h3>
-            <p><em>AmRest (50,000 employees)</em> | Sep. 2022 – Jul. 2024</p>
-            <ul>
-                <li><strong>Stack:</strong> SQL (50% of the time), Datalens/Power BI (40% of the time), Excel + Word (10% of the time).</li>
-                <li><strong>Achievements:</strong></li>
+            <div class="experience-item">
+                <h3>BI Analyst</h3>
+                <p><em>AmRest (50,000 employees)</em> | Sep. 2022 – Jul. 2024</p>
+                <p><span class="highlight">Stack:</span> SQL (50% of the time), Datalens/Power BI (40% of the time), Excel + Word (10% of the time).</p>
+                <p><span class="highlight">Achievements:</span></p>
                 <ul>
                     <li>Successfully migrated reporting visualizations from Power BI to Yandex Datalens.</li>
                     <li>Participated in a project to optimize the operation of 24/7 restaurants, which significantly improved the company's EBITDA.</li>
                     <li>Automated marketing reports previously prepared manually by marketers, reducing the time spent by both marketers and analysts by an average of 15-20%.</li>
                 </ul>
-            </ul>
+            </div>
         </section>
 
         <section id="education">
