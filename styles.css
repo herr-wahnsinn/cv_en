@@ -116,3 +116,11 @@ ul li {
 .toc ul li a:hover {
     text-decoration: underline;
 }
+
+.job-title {
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
