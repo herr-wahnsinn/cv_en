@@ -1,87 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elian Nizamov - Data Analyst Resume</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>SQL Highlight</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/sql.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <style>body { margin: 0; padding: 10px; font-size: 14px; }</style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Elian Nizamov</h1>
-            <h2 class="job-title">Data Analyst</h2>
-            <p class="contact" style="text-align: center; margin-top: 10px;">
-                <a href="mailto:wsp.elian@yandex.ru">Email</a> | 
-                <a href="https://linkedin.com/in/enizamov" target="_blank">LinkedIn</a> | 
-                <a href="https://t.me/herr_wahnsinn" target="_blank">Telegram</a>
-            </p>
-        </header>
-            
-        <section id="table-of-contents" class="toc">
-            <h2>Table of Contents</h2>
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#key-skills">Key Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-        </ul>
-        </section>
-
-        <section id="about-me">
-            <h2>About Me</h2>
-            <p>Over 2 years of professional experience as a Data Analyst. Created interactive BI reports for analyzing business metrics in companies such as <a href="https://www.amrest.eu/en" target="_blank">AmRest</a> (brands KFC and Russian Rostic's) and the international logistics company <a href="https://www.cdek.ru/en/" target="_blank">CDEK</a>. Worked with various databases, extensively utilized SQL for writing complex queries, and used Apache Superset, Power BI, and Yandex Datalens for data visualization, as well as Git for version control.</p>
-            <p>I am looking for opportunities to work remotely in Europe, where I can apply my experience in data analytics and grow in an international environment. I am eager to contribute to complex projects, propose innovative approaches, and support businesses in making data-driven decisions. I value working with a professional team, transparent processes, and the opportunity to grow alongside the company.</p>
-        </section>
-
-        <section id="key-skills">
-            <h2>Key Skills</h2>
-            <ul>
-                <li><strong>Technical Skills:</strong> SQL, Apache Superset, Yandex Datalens, Power BI, ClickHouse, GreenPlum, Git, Apache Airflow, Apache Kafka, Python.</li>
-                <li><strong>Other Tools:</strong> Figma, Jira, Redmine, Confluence, DataHub, Microsoft Office.</li>
-                <li><strong>Languages:</strong> Russian (native), English (B2), Italian (A2).</li>
-            </ul>
-        </section>
-
-        <section id="experience">
-            <h2>Experience</h2>
-
-            <div class="experience-item">
-                <h3>Data Analyst <span class="experience-duration">| Aug. 2022 – Present (6 months)</span></h3>
-                <p><em>CDEK (40,000 employees)</em></p>
-                <p><span class="highlight">Stack:</span> SQL (55% of the time), Apache Superset (40% of the time), Confluence (5% of the time).</p>
-                <p><span class="highlight">Responsibilities:</span></p>
-                <ul>
-                    <li>Development of data marts in ClickHouse and Greenplum.</li>
-                    <li>Creation of dashboards in Apache Superset to visualize financial business metrics.</li>
-                    <li>Optimization of SQL queries and participation in code reviews for other data analysts to improve efficiency, readability, and compliance with corporate standards.</li>
-                    <li>Automation of data loading and updates in the DWH using Apache AirFlow.</li>
-                    <li>Utilization of Git for version control within the data warehouse.</li>
-                    <li>Maintenance of created dashboards, including monitoring their accuracy, fixing issues, and implementing improvements based on feedback from stakeholders and/or end users.</li>
-                    <li>Analysis of 1C reports required for visualization, task assignment to 1C developers and analysts for data migration via RabbitMQ, and control of the migration process to the DWH for subsequent use in BI systems.</li>
-                    <li>Monitoring and managing data transmission using Kafka, ensuring stability and control over data streams.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <h3>BI Analyst <span class="experience-duration">| Sep. 2022 – Jul. 2024 (1 year 11 months)</span></h3>
-                <p><em>AmRest (50,000 employees)</em></p>
-                <p><span class="highlight">Stack:</span> SQL (50% of the time), Datalens/Power BI (40% of the time), Excel + Word (10% of the time).</p>
-                <p><span class="highlight">Achievements:</span></p>
-                <ul>
-                    <li>Successfully migrated reporting visualizations from Power BI to Yandex Datalens.</li>
-                    <li>Participated in a project to optimize the operation of 24/7 restaurants, which significantly improved the company's EBITDA.</li>
-                    <li>Automated marketing reports previously prepared manually by marketers, reducing the time spent by both marketers and analysts by an average of 15-20%.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <p><strong>RTU MIREA — Russian Technological University</strong></p>
-            <p>Faculty of Information Technology | 2019 - 2023</p>
-            <p><em>Software Engineering</em></p>
-        </section>
-    </div>
+  <pre><code class="language-sql">
+SELECT id, name FROM customers WHERE country = 'Armenia' ORDER BY name;
+  </code></pre>
 </body>
 </html>
